@@ -1,6 +1,12 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif; 
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 960px;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -15,38 +21,38 @@ body {
     vertical-align: middle;
     
 }
-.header img{
-    float: left;
-    padding: 10px 15px; 
-    height :50px; 
-    width :30px;
-}
 
-.header h1{
+#title{
     float: :left;
-    font: black;
+    color: white;
     font-family:Lucida Console;
-    font-size: 2em;
+    font-size: 1.6em;
+    padding: 18px;
     
+}
+.topnav h1{
+    float: :left;
+    font: white;
+    font-family:Lucida Console;
+    font-size: 1.5em;
 }
 
 .topnav {
   position: fixed;
-  z-index: 3;    
+  z-index: 2;
 }
 
 .topnav ul{
   list-style-type: none;
   overflow: hidden;
   font-family: Lucida Console;
-  font-size: 17px;
   background-color: #333;  
-  top: 53px;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  height: 50px; 
+  height: 70px; 
   position: fixed;
-  text-align: center /*this*/
+  text-align: center /*this*/  
 }
 
 .topnav li {
@@ -54,22 +60,22 @@ body {
   float: left;
 }
 
-
-
 .topnav .normal {
   display: block; /*this*/
-  padding: 17px 19px;
+  padding: 26px 26px;
   text-decoration: none;
   color: white;
   text-align: center;
+  font-size: 1.1em;
 }
 
 .topnav .dropbtn{
-  display: block;
+  font-size: 1.1em;
+  display: block; /*this*/
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 17px 19px;
+  padding: 26px 26px;
     
 }
 
@@ -80,7 +86,7 @@ body {
   background-color: #004f99;
   text-align: left;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  z-index: 2;
+  z-index: 1;
 
 }
 
@@ -110,48 +116,25 @@ body {
  
 }
 
-
-.sidenav {
-  height: 100%;
-  width: 200px;
-  top: 120px;
-  left: 0;
-  background-color: Gainsboro;
-  overflow-x: hidden;
-  padding-top: 20px;
-  border: thin solid Silver;
-  position: fixed;
-  z-index: 1;
-}
-
-.sidenav a {
-  padding: 6px 6px 6px 32px;
-  text-decoration: none;
-  font-size: 1em;
-  color: #818181;
-  display: block;
-}
-
-.sidenav a:hover{
-    color: #87bdd8;
-}
-
 .main {
-  margin-left: 230px; /* Same as the width of the sidenav */
-  margin-top: 120px;
-  padding: 20px 20px;
+  margin-left: 0px; /* Same as the width of the sidenav */
+  padding: 100px 0px;
 }
+
 
 .image-content{
-    width: 20 px;
-    height: 20 px;
-    box-shadow: 2px 2px 10px gray;
-    
+  border: solid thin gray;
+  float: left;
+  padding: 10px 10px 10px 10px;
+  display: block;
+  padding: 20px; 
+  align-content: center;
 }
 
 article{
+    padding: 10px;
+    clear: both;
     font-size: 1em;
     text-align: justify;
     letter-spacing: 2px;
     line-height: 1.2;
-}
