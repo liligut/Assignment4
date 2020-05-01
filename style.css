@@ -63,6 +63,13 @@ body {
   margin-top: 180px;
 }
 
+.main a{
+  color: black;
+}
+
+.main a:hover{
+  color: darkgrey;
+}
 
 .image-content{
   border: solid thin gray;
@@ -89,8 +96,12 @@ article{
 }
 
 .second_bar a {
-    color: darkgray;
+    color: black;
     padding: 20px;
+}
+
+.second_bar a:hover {
+    color: darkgray;
 }
 
 .bottom{
